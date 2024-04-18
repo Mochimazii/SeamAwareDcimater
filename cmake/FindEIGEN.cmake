@@ -66,6 +66,7 @@ else ()
       ${CMAKE_INSTALL_PREFIX}/include
       ${KDE4_INCLUDE_DIR}
 	  ${PROJECT_SOURCE_DIR}/../../../Eigen
+      ${PROJECT_SOURCE_DIR}/ext/eigen
     ${PROJECT_SOURCE_DIR}/../../../external/nanogui/ext/eigen/
     ${PROJECT_SOURCE_DIR}/../../external/nanogui/ext/eigen/
     ${PROJECT_SOURCE_DIR}/../external/nanogui/ext/eigen/

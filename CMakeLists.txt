@@ -6,6 +6,8 @@ SET(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 ## We need Eigen
 find_package(EIGEN REQUIRED)
 include_directories( "${EIGEN_INCLUDE_DIR}" )
+#add_library(Eigen3::Eigen INTERFACE IMPORTED)
+#include_directories( "ext/eigen")
 
 ## We need libigl
 find_package(LIBIGL REQUIRED)
@@ -17,7 +19,7 @@ add_definitions(-DIGL_NO_MOSEK)
 link_directories(
 	/usr/local/lib
 	${EIGEN_DIRS}
-) 
+)
 
 ## We need C++11. Put this directive after CGAL's include.
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -g " )
@@ -43,4 +45,5 @@ add_executable(decimater
 	)
 target_link_libraries ( decimater
 	${LIBIGL_LIBRARIES}
+#		Eigen3::Eigen
 )

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bear (Masha And The Bear)
+* source:	https://sketchfab.com/3d-models/bear-masha-and-the-bear-cb40fca26c14473c9bd740d11a7b405a
+* author:	Guilherme Navarro (https://sketchfab.com/guinavarro.al)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bear (Masha And The Bear)" (https://sketchfab.com/3d-models/bear-masha-and-the-bear-cb40fca26c14473c9bd740d11a7b405a) by Guilherme Navarro (https://sketchfab.com/guinavarro.al) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
